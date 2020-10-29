@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>PJ's Google Homepage</title>
+        <title>Google</title>
         <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./images/google-favicon.png" type="image/x-icon">
     </head>
     <body>
         <header>
-          <div class="about-links">
-            <p>About</p>
-            <p>Store</p>
-          </div>  
-          <div class="gsuite-links">
-              <p>Gmail</p>
-              <p>Images</p>
-              <img src="./images/apps-icon.webp" alt="apps-icon" class="head-icon">
-              <img src="./images/account-icon.webp" alt="account-icon" class="head-icon">
-          </div>
+            <ul>
+                <li class="left">About</li>
+                <li class="left">Store</li> 
+                <div class="right">
+                <li>Gmail</li>
+                <li>Images</li>
+                <li><img src="./images/apps-icon.webp" alt="apps-icon" class="head-icon"></li>
+                <li><img src="./images/account-icon.webp" alt="account-icon" class="head-icon"></li>
+                </div>
+            </ul>
         </header>
         <section class="search">
             <img src="./images/google-logo.png" alt="Google Logo" class="logo">
             <div class="search-bar">
                 <img src="./images/spyglass.png" alt="spyglass" class="spyglass">
                 <input type="text">
-                <img src="./images/gmicrophone.png" alt="microphone">
+                <img src="./images/gmicrophone.png" alt="microphone" class="microphone">
             </div>
-            <input type="button" value="Google Search">
-            <input type="button" value="I'm Feeling Lucky"> 
+            <div class="buttons">
+                <input type="button" value="Google Search">
+                <input type="button" value="I'm Feeling Lucky"> 
+            </div>
         </section>
         <footer>
-           <ul class="bot-left">
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search Works</li>
-           </ul>
-           <ul class="bot-right">
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
-           </ul> 
+           <span class="bot-left">
+                <p>Advertising</p>
+                <p>Business</p>
+                <p>How Search Works</p>
+           </span>
+           <span class="bot-right">
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>Settings</p>
+           </span> 
         </footer>
     </body>
 </html>
